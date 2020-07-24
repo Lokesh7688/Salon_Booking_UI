@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'price.dart';
 
 const cardsInfo = [
   {
@@ -181,7 +182,7 @@ class Cards extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => priceScreen(styles)));
+                            builder: (context) => PriceScreen(styles)));
                   },
                   color: Color(0xff6B617A),
                   shape: RoundedRectangleBorder(
